@@ -14,6 +14,8 @@
 		8E3590241C9914E80054F5B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E3590221C9914E80054F5B4 /* LaunchScreen.storyboard */; };
 		8E35902F1C9914E80054F5B4 /* retro_calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E35902E1C9914E80054F5B4 /* retro_calculatorTests.swift */; };
 		8E35903A1C9914E80054F5B4 /* retro_calculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3590391C9914E80054F5B4 /* retro_calculatorUITests.swift */; };
+		8E3590481C99211F0054F5B4 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E3590471C99211F0054F5B4 /* Minecraft.ttf */; };
+		8E35904A1C9A68320054F5B4 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8E3590491C9A68320054F5B4 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		8E3590351C9914E80054F5B4 /* retro-calculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "retro-calculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E3590391C9914E80054F5B4 /* retro_calculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = retro_calculatorUITests.swift; sourceTree = "<group>"; };
 		8E35903B1C9914E80054F5B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E3590471C99211F0054F5B4 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Minecraft.ttf; path = ../../Downloads/Minecraft.ttf; sourceTree = "<group>"; };
+		8E3590491C9A68320054F5B4 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		8E35900D1C9914E80054F5B4 = {
 			isa = PBXGroup;
 			children = (
+				8E3590471C99211F0054F5B4 /* Minecraft.ttf */,
+				8E3590491C9A68320054F5B4 /* btn.wav */,
 				8E3590181C9914E80054F5B4 /* retro-calculator */,
 				8E35902D1C9914E80054F5B4 /* retro-calculatorTests */,
 				8E3590381C9914E80054F5B4 /* retro-calculatorUITests */,
@@ -232,8 +238,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E35904A1C9A68320054F5B4 /* btn.wav in Resources */,
 				8E3590241C9914E80054F5B4 /* LaunchScreen.storyboard in Resources */,
 				8E3590211C9914E80054F5B4 /* Assets.xcassets in Resources */,
+				8E3590481C99211F0054F5B4 /* Minecraft.ttf in Resources */,
 				8E35901F1C9914E80054F5B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
